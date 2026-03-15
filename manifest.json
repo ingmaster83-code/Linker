@@ -1,0 +1,22 @@
+{
+  "name": "Linker - 유용한 사이트 모음",
+  "short_name": "Linker",
+  "description": "AI·개발·디자인·생산성·게임·학습 유용한 사이트 링크 모음",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F8FA",
+  "theme_color": "#4F46E5",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
