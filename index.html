@@ -85,11 +85,23 @@
       <a href="#edu">학습</a>
     </nav>
     <div class="header-right">
-      <button id="pwaInstallBtn" class="pwa-install-btn" style="display:none">📌 앱 설치</button>
       <a href="about.html" style="color:rgba(255,255,255,0.85); font-size:0.85rem; text-decoration:none;">소개</a>
     </div>
   </div>
 </header>
+
+<div class="our-sites-bar">
+  <span class="our-sites-label">wooahouse</span>
+  <div class="our-sites-links">
+    <a href="https://linker.wooahouse.com/" target="_blank" rel="noopener">🔗 Linker</a>
+    <a href="https://pdfkit.wooahouse.com/" target="_blank" rel="noopener">📄 PDFKit</a>
+    <a href="https://chromekit.wooahouse.com/" target="_blank" rel="noopener">🧩 ChromeKit</a>
+    <a href="https://fontkit.wooahouse.com/" target="_blank" rel="noopener">🔤 FontKit</a>
+    <a href="https://mactools.wooahouse.com/" target="_blank" rel="noopener">🍎 MacTools</a>
+    <a href="https://pctools.wooahouse.com/" target="_blank" rel="noopener">🖥️ PCTools</a>
+    <a href="https://vskit.wooahouse.com/" target="_blank" rel="noopener">💻 VSKit</a>
+  </div>
+</div>
 
 <section class="hero">
   <h1>세상의 모든 링크를 연결하다</h1>
@@ -735,36 +747,6 @@
   </div>
 </footer>
 
-<script>
-  // 서비스워커 등록
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js');
-  }
-
-  // PWA 설치 버튼
-  let deferredPrompt;
-  const installBtn = document.getElementById('pwaInstallBtn');
-
-  window.addEventListener('beforeinstallprompt', e => {
-    e.preventDefault();
-    deferredPrompt = e;
-    installBtn.style.display = 'block';
-  });
-
-  installBtn.addEventListener('click', async () => {
-    if (!deferredPrompt) return;
-    deferredPrompt.prompt();
-    const { outcome } = await deferredPrompt.userChoice;
-    if (outcome === 'accepted') {
-      installBtn.style.display = 'none';
-    }
-    deferredPrompt = null;
-  });
-
-  window.addEventListener('appinstalled', () => {
-    installBtn.style.display = 'none';
-    deferredPrompt = null;
-  });
-</script>
+<script src="js/pwa-install.js"></script>
 </body>
 </html>
