@@ -377,6 +377,21 @@ nav a:hover { background: rgba(255,255,255,0.18); color: white; }
 
 .link-card:hover .link-hint { opacity: 1; }
 
+/* ───── Coupang Banner ───── */
+.coupang-banner-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px 0 32px;
+}
+
+.coupang-notice {
+  margin-top: 8px;
+  font-size: 0.7rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
 /* ───── Features Strip ───── */
 .features {
   background: white;
