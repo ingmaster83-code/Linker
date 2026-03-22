@@ -278,34 +278,11 @@ nav a:hover { background: rgba(255,255,255,0.18); color: white; }
 
 .mysite-card:hover .mysite-arrow { opacity: 1; }
 
-/* ───── Page Layout (Sidebar + Main) ───── */
-.page-layout {
+/* ───── Links Section ───── */
+.links-section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 52px 20px 80px;
-  display: flex;
-  gap: 32px;
-  align-items: flex-start;
-}
-
-.sidebar {
-  width: 300px;
-  flex-shrink: 0;
-  position: sticky;
-  top: 76px;
-}
-
-.sidebar-ad {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* ───── Links Section ───── */
-.links-section {
-  flex: 1;
-  min-width: 0;
-  padding: 0;
 }
 
 .category-block {
@@ -530,11 +507,6 @@ footer {
 .footer-bottom-links a:hover { color: white; }
 
 /* ───── Responsive ───── */
-@media (max-width: 1024px) {
-  .sidebar { display: none; }
-  .page-layout { display: block; padding: 40px 20px 80px; }
-}
-
 @media (max-width: 768px) {
   .hero h1 { font-size: 1.75rem; }
   .links-grid { grid-template-columns: repeat(2, 1fr); }
