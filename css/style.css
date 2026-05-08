@@ -385,7 +385,7 @@ nav a:hover { background: rgba(255,255,255,0.18); color: white; }
   margin: 8px 0 32px;
 }
 
-.coupang-notice { font-size: 0.4rem; color: #9CA3AF; text-align: center; padding-top: 10px; border-top: 1px solid #374151; margin-top: 10px; }
+.coupang-notice { font-size: 0.65rem; color: #9CA3AF; text-align: center; padding-top: 10px; border-top: 1px solid #374151; margin-top: 10px; }
 
 /* ───── Features Strip ───── */
 .features {
