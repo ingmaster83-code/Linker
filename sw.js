@@ -1,4 +1,4 @@
-const CACHE_NAME = 'linker-v4';
+const CACHE_NAME = 'linker-v5';
 const ASSETS = [
   '/',
   '/index.html',
