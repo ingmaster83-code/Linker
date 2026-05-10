@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
 
 :root {
   --primary: #4F46E5;
@@ -621,4 +621,13 @@ footer {
 .hero-related a:hover { background: rgba(255,255,255,0.35); }
 
 .coupang-card { background:#fff; border-radius:14px; box-shadow:0 2px 12px rgba(0,0,0,.07); overflow:hidden; display:flex; align-items:center; justify-content:center; padding:10px; min-height:220px; }
-.adsense-card { background:#fff; border-radius:14px; box-shadow:0 2px 12px rgba(0,0,0,.07); overflow:hidden; display:flex; align-items:center; justify-content:center; padding:10px; min-height:220px; }
+.index-with-sidebar { max-width:1260px; margin:0 auto; display:grid; grid-template-columns:1fr 300px; gap:24px; align-items:start; padding:0 20px; }
+.index-with-sidebar .links-section { max-width:100%; margin:0; padding-left:0; padding-right:0; }
+.index-sidebar { position:sticky; top:76px; padding-top:52px; }
+.index-ad-card { background:#fff; border-radius:14px; box-shadow:0 2px 12px rgba(0,0,0,.08); padding:12px; margin-bottom:16px; }
+.index-mobile-ad { display:none; text-align:center; padding:8px 16px; background:#fff; border-bottom:1px solid #E5E7EB; }
+@media(max-width:1024px) {
+  .index-with-sidebar { grid-template-columns:1fr; padding:0; }
+  .index-sidebar { display:none; }
+  .index-mobile-ad { display:block; }
+}
