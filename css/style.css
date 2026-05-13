@@ -216,7 +216,7 @@ nav a:hover { background: rgba(255,255,255,0.18); color: white; }
   gap: 18px;
   position: relative;
   overflow: hidden;
-  min-height: 160px;
+  min-height: 240px;
 }
 
 .mysite-card::before {
