@@ -100,6 +100,28 @@ nav a:hover { background: rgba(255,255,255,0.18); color: white; }
   margin-left: auto;
   flex-shrink: 0;
 }
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 20px;
+  padding: 2px 4px;
+}
+.lang-switch a {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 3px 9px;
+  border-radius: 16px;
+  transition: background 0.15s, color 0.15s;
+}
+.lang-switch a:hover { color: #fff; }
+.lang-switch a.active {
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+}
 
 /* ───── Hero ───── */
 .hero {
