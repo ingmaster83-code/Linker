@@ -563,11 +563,13 @@ footer {
   letter-spacing: .5px;
   white-space: nowrap;
   width: 100%;
+  text-align: center;
 }
 .our-sites-links {
   display: flex;
   gap: 3px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .our-sites-links a {
   color: rgba(255,255,255,.75);
