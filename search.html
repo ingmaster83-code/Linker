@@ -72,6 +72,12 @@ a{color:inherit;text-decoration:none}
 .no-result{text-align:center;padding:60px 16px;color:#9ca3af;font-size:15px}
 .initial-msg{text-align:center;padding:40px 16px;color:#9ca3af;font-size:14px}
 
+/* 사이트별 그룹 */
+.site-group{margin-bottom:32px}
+.site-group-header{display:flex;align-items:center;gap:10px;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid #e5e7eb}
+.site-group-title{font-size:16px;font-weight:800;color:#111}
+.site-group-count{font-size:12px;color:#9ca3af;font-weight:500}
+
 /* 우측 사이드바 */
 .search-sidebar{width:200px;flex-shrink:0;padding:24px 16px 24px 0;display:flex;flex-direction:column;gap:16px;position:sticky;top:16px}
 .ad-card{background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;padding:8px}
@@ -217,6 +223,16 @@ document.getElementById('searchInput').addEventListener('input', function() {
   renderResults();
 });
 
+function cardHtml(t) {
+  return `<a href="${t.u}" class="result-card" target="_blank" rel="noopener">
+    <div class="card-top">
+      <span class="card-site badge-${t.s.replace(/\s/g,'')}">${t.s}</span>
+      <span class="card-name">${t.n}</span>
+    </div>
+    ${t.d ? `<p class="card-desc">${t.d}</p>` : ''}
+  </a>`;
+}
+
 function renderResults() {
   const q = currentQuery.toLowerCase();
   let filtered = allTools;
@@ -232,30 +248,40 @@ function renderResults() {
   const container = document.getElementById('resultsContainer');
   const countEl = document.getElementById('resultCount');
 
-  if (!q && currentSite === 'all' && !allTools.length) {
+  if (!allTools.length) {
     container.innerHTML = '<div class="initial-msg">검색어를 입력하거나 필터를 선택하세요</div>';
     countEl.style.display = 'none';
     return;
   }
 
-  countEl.style.display = 'block';
-  countEl.textContent = `검색 결과: ${filtered.length}개`;
-
   if (!filtered.length) {
+    countEl.style.display = 'block';
+    countEl.textContent = `검색 결과: 0개`;
     container.innerHTML = '<div class="no-result">😅 검색 결과가 없습니다. 다른 키워드로 시도해보세요.</div>';
     return;
   }
 
-  container.innerHTML = '<div class="results-grid">' +
-    filtered.map(t => `
-      <a href="${t.u}" class="result-card" target="_blank" rel="noopener">
-        <div class="card-top">
-          <span class="card-site badge-${t.s.replace(/\s/g,'')}">${t.s}</span>
-          <span class="card-name">${t.n}</span>
+  // 검색어 없이 전체 보기 → 사이트별 그룹
+  if (!q && currentSite === 'all') {
+    countEl.style.display = 'block';
+    countEl.textContent = `전체 ${filtered.length}개 도구`;
+    const groups = SITE_ORDER.map(s => ({ s, tools: filtered.filter(t => t.s === s) })).filter(g => g.tools.length);
+    container.innerHTML = groups.map(g => `
+      <div class="site-group">
+        <div class="site-group-header">
+          <span class="card-site badge-${g.s.replace(/\s/g,'')}" style="font-size:12px">${g.s}</span>
+          <span class="site-group-title">${g.s}</span>
+          <span class="site-group-count">${g.tools.length}개</span>
         </div>
-        ${t.d ? `<p class="card-desc">${t.d}</p>` : ''}
-      </a>`).join('')
-    + '</div>';
+        <div class="results-grid">${g.tools.map(cardHtml).join('')}</div>
+      </div>`).join('');
+    return;
+  }
+
+  // 검색어 있거나 특정 사이트 필터 → flat 리스트
+  countEl.style.display = 'block';
+  countEl.textContent = `검색 결과: ${filtered.length}개`;
+  container.innerHTML = '<div class="results-grid">' + filtered.map(cardHtml).join('') + '</div>';
 }
 </script>
 </body>
