@@ -227,7 +227,7 @@ function renderResults() {
   const container = document.getElementById('resultsContainer');
   const countEl = document.getElementById('resultCount');
 
-  if (!q && currentSite === 'all') {
+  if (!q && currentSite === 'all' && !allTools.length) {
     container.innerHTML = '<div class="initial-msg">Enter a keyword or select a filter to browse tools</div>';
     countEl.style.display = 'none';
     return;
