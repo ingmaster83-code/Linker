@@ -116,6 +116,14 @@ let currentQuery = '';
 
 const SITE_ORDER = ['WooaPDF','WooaImage','WooaColor','WooaText','WooaQR','WooaCalc','WooaAudio','WooaVideo','WooaViewer','WooaDev','WooaOCR','WooaSheet','WooaSEO','WooaGosa'];
 
+// URL ?q= 파라미터 자동 반영
+const urlQ = new URLSearchParams(location.search).get('q') || '';
+if (urlQ) {
+  currentQuery = urlQ;
+  document.getElementById('searchInput').value = urlQ;
+  document.getElementById('clearBtn').classList.add('show');
+}
+
 fetch('https://wooahouse.com/tools.json')
   .then(r => r.json())
   .then(data => {

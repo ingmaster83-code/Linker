@@ -145,6 +145,40 @@ nav a:hover { background: rgba(255,255,255,0.18); color: white; }
   margin: 0 auto;
   line-height: 1.7;
 }
+/* 히어로 통합 검색바 */
+.hero-search-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255,255,255,0.15);
+  border: 1.5px solid rgba(255,255,255,0.4);
+  border-radius: 40px;
+  padding: 12px 20px;
+  margin: 20px auto 0;
+  max-width: 520px;
+  cursor: pointer;
+  transition: background 0.18s, border-color 0.18s, box-shadow 0.18s;
+  backdrop-filter: blur(4px);
+}
+.hero-search-bar:hover {
+  background: rgba(255,255,255,0.25);
+  border-color: rgba(255,255,255,0.7);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+.hero-search-icon { font-size: 18px; flex-shrink: 0; }
+.hero-search-placeholder { flex: 1; color: rgba(255,255,255,0.8); font-size: 14px; text-align: left; }
+.hero-search-kbd {
+  flex-shrink: 0;
+  font-size: 11px;
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 6px;
+  padding: 2px 7px;
+  color: rgba(255,255,255,0.7);
+  font-family: monospace;
+}
+@media (max-width: 480px) { .hero-search-kbd { display: none; } }
+
 .hero-install-btn {
   margin-top: 20px;
   display: inline-flex;
