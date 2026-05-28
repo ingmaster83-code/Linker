@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
-<title>도구 통합 검색 | WooaHouse — 350+ 무료 온라인 도구</title>
-<meta name="description" content="WooaHouse 전체 350개 이상의 무료 온라인 도구를 한 번에 검색하세요. PDF, 이미지, 동영상, 텍스트, 계산기, 개발자 도구 등 카테고리별 필터 지원.">
+<link rel="icon" href="../icons/icon.svg" type="image/svg+xml">
+<title>Tool Search | WooaHouse — 350+ Free Online Tools</title>
+<meta name="description" content="Search 350+ free online tools across all WooaHouse services. PDF, image, audio, calculator, developer tools and more — find the right tool instantly.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://wooahouse.com/search.html">
-<meta property="og:title" content="도구 통합 검색 | WooaHouse">
-<meta property="og:description" content="WooaHouse 전체 350+ 무료 온라인 도구를 한 번에 검색하세요.">
+<link rel="canonical" href="https://wooahouse.com/en/search.html">
+<link rel="alternate" hreflang="ko" href="https://wooahouse.com/search.html">
+<link rel="alternate" hreflang="en" href="https://wooahouse.com/en/search.html">
+<meta property="og:title" content="Tool Search | WooaHouse">
+<meta property="og:description" content="Search 350+ free online tools across all WooaHouse services.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://wooahouse.com/search.html">
+<meta property="og:url" content="https://wooahouse.com/en/search.html">
 
 <!-- AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6464921081676309" crossorigin="anonymous"></script>
@@ -23,27 +25,23 @@
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f8fafc;color:#111;min-height:100vh}
 a{color:inherit;text-decoration:none}
 
-/* 헤더 */
 .search-header{background:#fff;border-bottom:1px solid #e5e7eb;padding:14px 20px;display:flex;align-items:center;gap:12px}
 .search-header a{font-size:13px;color:#6b7280}
 .search-header a:hover{color:#2563eb}
+.lang-switch{margin-left:auto;display:flex;gap:8px;font-size:12px}
+.lang-switch a{padding:2px 8px;border-radius:10px;border:1px solid #e5e7eb;color:#6b7280}
+.lang-switch a.active{background:#2563eb;color:#fff;border-color:#2563eb}
 
-/* 모바일 상단 광고 */
 .mobile-top-ad{display:none;padding:8px 16px;background:#fff;border-bottom:1px solid #f0f0f0}
 @media(max-width:900px){.mobile-top-ad{display:block}}
 
-/* 페이지 전체 레이아웃 */
 .page-layout{display:flex;gap:0;max-width:1280px;margin:0 auto;align-items:flex-start}
-
-/* 메인 콘텐츠 */
 .search-main{flex:1;min-width:0;padding-bottom:48px}
 
-/* 히어로 */
 .hero{text-align:center;padding:36px 20px 24px}
 .hero h1{font-size:26px;font-weight:800;margin-bottom:6px;color:#111}
 .hero p{color:#6b7280;font-size:14px}
 
-/* 검색 박스 */
 .search-wrap{max-width:600px;margin:0 auto 24px;padding:0 16px}
 .search-box{display:flex;align-items:center;background:#fff;border:2px solid #e5e7eb;border-radius:14px;padding:12px 16px;gap:10px;box-shadow:0 2px 8px rgba(0,0,0,.06);transition:border-color .2s}
 .search-box:focus-within{border-color:#2563eb;box-shadow:0 0 0 3px rgba(37,99,235,.12)}
@@ -53,13 +51,11 @@ a{color:inherit;text-decoration:none}
 .clear-btn.show{display:block}
 .clear-btn:hover{color:#111}
 
-/* 필터 칩 */
 .filter-wrap{padding:0 16px 20px;display:flex;gap:8px;flex-wrap:wrap}
 .chip{padding:5px 14px;border-radius:20px;font-size:13px;font-weight:500;border:1px solid #e5e7eb;background:#fff;cursor:pointer;transition:all .15s;white-space:nowrap}
 .chip:hover{border-color:#2563eb;color:#2563eb}
 .chip.active{background:#2563eb;color:#fff;border-color:#2563eb}
 
-/* 결과 */
 .results-wrap{padding:0 16px}
 .result-count{font-size:13px;color:#6b7280;margin-bottom:14px}
 .results-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
@@ -72,12 +68,10 @@ a{color:inherit;text-decoration:none}
 .no-result{text-align:center;padding:60px 16px;color:#9ca3af;font-size:15px}
 .initial-msg{text-align:center;padding:40px 16px;color:#9ca3af;font-size:14px}
 
-/* 우측 사이드바 */
 .search-sidebar{width:200px;flex-shrink:0;padding:24px 16px 24px 0;display:flex;flex-direction:column;gap:16px;position:sticky;top:16px}
 .ad-card{background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;padding:8px}
 @media(max-width:900px){.search-sidebar{display:none}}
 
-/* 사이트 배지 색상 */
 .badge-WooaPDF{background:#fff1f2;color:#e11d48}
 .badge-WooaImage{background:#ede9fe;color:#7c3aed}
 .badge-WooaColor{background:#fdf4ff;color:#9333ea}
@@ -99,14 +93,13 @@ a{color:inherit;text-decoration:none}
 <div class="search-header">
   <a href="https://wooahouse.com/">🏠 WooaHouse</a>
   <span style="color:#e5e7eb">›</span>
-  <span style="font-weight:600;font-size:13px">도구 통합 검색</span>
-  <div style="margin-left:auto;display:flex;gap:8px;font-size:12px">
-    <a href="search.html" style="padding:2px 8px;border-radius:10px;border:1px solid #2563eb;background:#2563eb;color:#fff">KO</a>
-    <a href="en/search.html" style="padding:2px 8px;border-radius:10px;border:1px solid #e5e7eb;color:#6b7280">EN</a>
+  <span style="font-weight:600;font-size:13px">Tool Search</span>
+  <div class="lang-switch">
+    <a href="../search.html">KO</a>
+    <a href="search.html" class="active">EN</a>
   </div>
 </div>
 
-<!-- 모바일 상단 광고 -->
 <div class="mobile-top-ad">
   <ins class="adsbygoogle" style="display:block;width:100%;height:80px"
     data-ad-client="ca-pub-6464921081676309" data-ad-slot="7080296704"
@@ -116,34 +109,32 @@ a{color:inherit;text-decoration:none}
 
 <div class="page-layout">
 
-  <!-- 메인 콘텐츠 -->
   <div class="search-main">
     <div class="hero">
-      <h1>🔍 WooaHouse 도구 통합 검색</h1>
-      <p>PDF · 이미지 · 오디오 · 계산기 · 개발 도구 등 350+ 무료 도구를 한 번에 검색하세요</p>
+      <h1>🔍 WooaHouse Tool Search</h1>
+      <p>PDF · Image · Audio · Calculator · Dev tools — Search 350+ free tools in one place</p>
     </div>
 
     <div class="search-wrap">
       <div class="search-box">
         <span>🔍</span>
-        <input id="searchInput" type="search" placeholder="도구 검색... (예: PDF 분할, 이미지 압축, QR 코드)" autocomplete="off" autofocus/>
+        <input id="searchInput" type="search" placeholder="Search tools... (e.g. split PDF, compress image, QR code)" autocomplete="off" autofocus/>
         <button class="clear-btn" id="clearBtn" onclick="clearSearch()">✕</button>
       </div>
     </div>
 
     <div class="filter-wrap" id="filterWrap">
-      <button class="chip active" data-site="all" onclick="filterSite(this)">전체</button>
+      <button class="chip active" data-site="all" onclick="filterSite(this)">All</button>
     </div>
 
     <div class="results-wrap">
       <div class="result-count" id="resultCount" style="display:none"></div>
       <div id="resultsContainer">
-        <div class="initial-msg">검색어를 입력하거나 필터를 선택하세요</div>
+        <div class="initial-msg">Enter a keyword or select a filter to browse tools</div>
       </div>
     </div>
   </div>
 
-  <!-- 우측 사이드바 광고 -->
   <aside class="search-sidebar">
     <div class="ad-card">
       <ins class="adsbygoogle" style="display:block;width:100%;min-height:250px"
@@ -158,7 +149,7 @@ a{color:inherit;text-decoration:none}
 
 </div>
 
-<script src="js/wooa-sites-bar.js"></script>
+<script src="../js/wooa-sites-bar.js"></script>
 
 <script>
 let allTools = [];
@@ -167,7 +158,7 @@ let currentQuery = '';
 
 const SITE_ORDER = ['WooaPDF','WooaImage','WooaColor','WooaText','WooaQR','WooaCalc','WooaAudio','WooaVideo','WooaViewer','WooaDev','WooaOCR','WooaSheet','WooaSEO','WooaGosa'];
 
-// URL ?q= 파라미터 자동 반영
+// URL ?q= param
 const urlQ = new URLSearchParams(location.search).get('q') || '';
 if (urlQ) {
   currentQuery = urlQ;
@@ -183,11 +174,15 @@ fetch('https://wooahouse.com/tools.json')
     renderResults();
   });
 
+function getName(t) { return t.ne || t.n; }
+function getUrl(t)  { return t.ue || t.u; }
+function getDesc(t) { return t.de || t.d; }
+
 function buildFilters(data) {
   const sites = [...new Set(data.map(t => t.s))].sort((a,b) => SITE_ORDER.indexOf(a) - SITE_ORDER.indexOf(b));
   const wrap = document.getElementById('filterWrap');
   const totalChip = wrap.querySelector('[data-site="all"]');
-  totalChip.textContent = `전체 (${data.length})`;
+  totalChip.textContent = `All (${data.length})`;
   sites.forEach(s => {
     const cnt = data.filter(t => t.s === s).length;
     const c = document.createElement('button');
@@ -225,8 +220,8 @@ function renderResults() {
   if (currentSite !== 'all') filtered = filtered.filter(t => t.s === currentSite);
   if (q) {
     filtered = filtered.filter(t =>
-      t.n.toLowerCase().includes(q) ||
-      t.d.toLowerCase().includes(q) ||
+      getName(t).toLowerCase().includes(q) ||
+      (getDesc(t) && getDesc(t).toLowerCase().includes(q)) ||
       t.s.toLowerCase().includes(q)
     );
   }
@@ -235,27 +230,27 @@ function renderResults() {
   const countEl = document.getElementById('resultCount');
 
   if (!q && currentSite === 'all') {
-    container.innerHTML = '<div class="initial-msg">검색어를 입력하거나 필터를 선택하세요</div>';
+    container.innerHTML = '<div class="initial-msg">Enter a keyword or select a filter to browse tools</div>';
     countEl.style.display = 'none';
     return;
   }
 
   countEl.style.display = 'block';
-  countEl.textContent = `검색 결과: ${filtered.length}개`;
+  countEl.textContent = `Results: ${filtered.length} tools`;
 
   if (!filtered.length) {
-    container.innerHTML = '<div class="no-result">😅 검색 결과가 없습니다. 다른 키워드로 시도해보세요.</div>';
+    container.innerHTML = '<div class="no-result">😅 No results found. Try a different keyword.</div>';
     return;
   }
 
   container.innerHTML = '<div class="results-grid">' +
     filtered.map(t => `
-      <a href="${t.u}" class="result-card" target="_blank" rel="noopener">
+      <a href="${getUrl(t)}" class="result-card" target="_blank" rel="noopener">
         <div class="card-top">
           <span class="card-site badge-${t.s.replace(/\s/g,'')}">${t.s}</span>
-          <span class="card-name">${t.n}</span>
+          <span class="card-name">${getName(t)}</span>
         </div>
-        ${t.d ? `<p class="card-desc">${t.d}</p>` : ''}
+        ${getDesc(t) ? `<p class="card-desc">${getDesc(t)}</p>` : ''}
       </a>`).join('')
     + '</div>';
 }
