@@ -1212,17 +1212,17 @@
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "취득세 계산기 2026",
+    "n": "취득세 계산기",
     "u": "https://calckit.wooahouse.com/acquisition-tax.html",
     "d": "주택 취득가액과 보유 주택 수, 조정대상지역 여부를 입력해 취득세·농어촌특별세·지방교육세를 계...",
-    "ne": "Korea Property Acquisition Tax Calculator 2026",
+    "ne": "Korea Property Acquisition Tax Calculator",
     "ue": "https://calckit.wooahouse.com/en/acquisition-tax.html",
     "de": "Calculate Korean acquisition tax (취득세) when buying a..."
   },
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "나이 계산기 2026",
+    "n": "나이 계산기",
     "u": "https://calckit.wooahouse.com/age.html",
     "d": "생년월일을 입력하면 만나이, 한국식 나이, 다음 생일까지 남은 일수, 태어난 지 총 일수를 계...",
     "ne": "Age Calculator",
@@ -1312,10 +1312,10 @@
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "양도소득세 계산기 2026",
+    "n": "양도소득세 계산기",
     "u": "https://calckit.wooahouse.com/capital-gains-tax.html",
     "d": "부동산 매도 시 양도가액·취득가액·보유기간·주택 수를 입력해 양도차익, 장기보유특별공제, 양도...",
-    "ne": "Korea Capital Gains Tax Calculator 2026",
+    "ne": "Korea Capital Gains Tax Calculator",
     "ue": "https://calckit.wooahouse.com/en/capital-gains-tax.html",
     "de": "Calculate Korean capital gains tax (양도소득세) on real e..."
   },
@@ -1382,10 +1382,10 @@
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "전기요금 계산기 2026",
+    "n": "전기요금 계산기",
     "u": "https://calckit.wooahouse.com/electricity.html",
     "d": "월 전기 사용량(kWh)을 입력하면 한국전력 누진요금 체계로 기본요금, 전력량요금, 부가세, ...",
-    "ne": "Electricity Bill Calculator 2026",
+    "ne": "Electricity Bill Calculator",
     "ue": "https://calckit.wooahouse.com/en/electricity.html",
     "de": "Calculate Korean electricity bill (KEPCO progressive..."
   },
@@ -1412,10 +1412,10 @@
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "증여세 계산기 2026",
+    "n": "증여세 계산기",
     "u": "https://calckit.wooahouse.com/gift-tax.html",
     "d": "증여재산과 수증자(받는 사람)의 관계를 입력하면 증여세 공제액·과세표준·세율·세액을 자동 계산...",
-    "ne": "Korean Gift Tax Calculator 2026",
+    "ne": "Korean Gift Tax Calculator",
     "ue": "https://calckit.wooahouse.com/en/gift-tax.html",
     "de": "Calculate Korean gift tax (증여세) after applying relat..."
   },
@@ -1432,20 +1432,20 @@
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "건강보험료 계산기 2025",
+    "n": "건강보험료 계산기",
     "u": "https://calckit.wooahouse.com/health-insurance.html",
     "d": "2025년 기준 건강보험료와 장기요양보험료 본인부담금을 계산합니다. 직장가입자 보수월액 기준 ...",
-    "ne": "Health Insurance Calculator 2025",
+    "ne": "Health Insurance Calculator",
     "ue": "https://calckit.wooahouse.com/en/health-insurance.html",
     "de": "Calculate Korean national health insurance and long-..."
   },
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "시급 계산기 2026",
+    "n": "시급 계산기",
     "u": "https://calckit.wooahouse.com/hourly-wage.html",
     "d": "2026년 최저시급 10,030원 기준으로 시급·근무시간·일수를 입력하면 주휴수당 포함 월급과...",
-    "ne": "Korean Hourly Wage Calculator 2026",
+    "ne": "Korean Hourly Wage Calculator",
     "ue": "https://calckit.wooahouse.com/en/hourly-wage.html",
     "de": "Calculate monthly salary and annual income from hour..."
   },
@@ -1485,7 +1485,7 @@
     "n": "국민연금 예상 수령액 계산기",
     "u": "https://calckit.wooahouse.com/national-pension.html",
     "d": "가입기간과 평균소득월액을 입력해 국민연금 노령연금 예상 수령액을 간이 계산합니다. 납부 보험료...",
-    "ne": "Korean National Pension Calculator 2026",
+    "ne": "Korean National Pension Calculator",
     "ue": "https://calckit.wooahouse.com/en/national-pension.html",
     "de": "Estimate your Korean National Pension (NPS) monthly ..."
   },
@@ -1532,10 +1532,10 @@
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "연봉 실수령액 계산기 2026",
+    "n": "연봉 실수령액 계산기",
     "u": "https://calckit.wooahouse.com/salary.html",
     "d": "2026년 기준 연봉에서 4대보험, 소득세, 지방소득세를 공제한 월 실수령액을 계산합니다. 무...",
-    "ne": "Salary Take-Home Calculator 2026",
+    "ne": "Salary Take-Home Calculator",
     "ue": "https://calckit.wooahouse.com/en/salary.html",
     "de": "Calculate monthly take-home pay from annual salary i..."
   },
@@ -3396,17 +3396,17 @@
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "종합소득세 계산기 2026 — 세율 구간 기반 소득세 간이 계산",
+    "n": "종합소득세 계산기",
     "u": "https://calckit.wooahouse.com/income-tax.html",
     "d": "2026년 종합소득세 세율 구간(6%~45%)과 인적공제를 적용해 예상 소득세를 계산합니다.",
-    "ne": "Korea Income Tax Calculator 2026 — Progressive Brackets",
+    "ne": "Korea Income Tax Calculator",
     "ue": "https://calckit.wooahouse.com/en/income-tax.html",
     "de": "Calculate Korean comprehensive income tax for 2026 using 6%–45% progressive brackets with personal deductions."
   },
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "금융소득 분리과세 계산기 — 이자·배당 2000만원 기준",
+    "n": "금융소득 분리과세 계산기",
     "u": "https://calckit.wooahouse.com/financial-income-tax.html",
     "d": "이자소득과 배당소득 합계 2,000만원 기준 분리과세(15.4%)와 종합과세 세액을 비교 계산합니다.",
     "ne": "Korea Financial Income Tax Calculator — Interest & Dividend",
@@ -3429,67 +3429,67 @@
     "n": "연금저축·IRP 세액공제 계산기 — 납입액 절세 계산",
     "u": "https://calckit.wooahouse.com/pension-tax.html",
     "d": "연금저축과 IRP 납입액에 따른 세액공제 금액을 계산합니다. 최대 900만원 합산 한도.",
-    "ne": "Pension Savings & IRP Tax Credit Calculator — Korea 2026",
+    "ne": "Pension Savings & IRP Tax Credit Calculator",
     "ue": "https://calckit.wooahouse.com/en/pension-tax.html",
     "de": "Calculate your Korean pension savings and IRP tax credit at 13.2%–16.5% rates. Up to ₩9M combined."
   },
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "자동차 취득세 계산기 2026 — 차량 유형별 취득세 무료 계산",
+    "n": "자동차 취득세 계산기",
     "u": "https://calckit.wooahouse.com/car-tax.html",
     "d": "비영업용 7%, 경차 4%(최대 75만원 감면), 영업용 4%, 이륜차 2%. 신차·중고차 취득가액 입력만으로 즉시 계산.",
-    "ne": "Vehicle Acquisition Tax Calculator 2026 — Free",
+    "ne": "Vehicle Acquisition Tax Calculator",
     "ue": "https://calckit.wooahouse.com/en/car-tax.html",
     "de": "Calculate Korea vehicle acquisition tax by type. Passenger 7%, compact 4% (up to 750K off), motorcycle 2%."
   },
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "월세 수익률 계산기 2026 — 임대수익률·순수익률 무료 계산",
+    "n": "월세 수익률 계산기",
     "u": "https://calckit.wooahouse.com/rent-yield.html",
     "d": "매입가·보증금·월세·대출이자 기준 총수익률·순수익률을 즉시 산출하는 임대 투자 계산기.",
-    "ne": "Rental Yield Calculator 2026 — Gross & Net Yield Free",
+    "ne": "Rental Yield Calculator",
     "ue": "https://calckit.wooahouse.com/en/rent-yield.html",
     "de": "Calculate gross and net rental yield instantly. Enter purchase price, rent, deposit, loan to get annual return."
   },
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "로또 번호 생성기 2026 — 무작위 로또 6/45 자동 추첨",
+    "n": "로또 번호 생성기",
     "u": "https://calckit.wooahouse.com/lotto.html",
     "d": "암호학적 난수 기반 로또 6/45 번호 자동 생성. 1~5게임 동시 추출 가능. 무료, 설치 불필요.",
-    "ne": "Korea Lotto 6/45 Number Generator 2026 — Free Random",
+    "ne": "Korea Lotto 6/45 Number Generator",
     "ue": "https://calckit.wooahouse.com/en/lotto.html",
     "de": "Generate random Korea Lotto 6/45 numbers instantly. Up to 5 games. Cryptographically secure. Free."
   },
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "주식 수익률 계산기 2026 — 수수료 세금 포함 순손익 계산",
+    "n": "주식 수익률 계산기",
     "u": "https://calckit.wooahouse.com/stock-return.html",
     "d": "주식 매수·매도 단가, 수량, 수수료, 증권거래세를 입력해 순손익과 실제 수익률을 계산합니다.",
-    "ne": "Stock Return Calculator 2026 — Net P&L with Fees & Tax",
+    "ne": "Stock Return Calculator",
     "ue": "https://calckit.wooahouse.com/en/stock-return.html",
     "de": "Calculate net profit and actual return rate for KOSPI/KOSDAQ stocks including brokerage fee and securities transaction tax."
   },
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "연금저축 IRP 세액공제 계산기 2026 — 연말정산 환급액 계산",
+    "n": "연금저축 IRP 세액공제 계산기",
     "u": "https://calckit.wooahouse.com/pension-deduction.html",
     "d": "총급여와 연금저축·IRP 납입액을 입력해 연말정산 세액공제 환급 예상액을 계산합니다. 공제율 자동 적용.",
-    "ne": "Pension Savings & IRP Tax Credit Calculator 2026",
+    "ne": "Pension Savings & IRP Tax Credit Calculator",
     "ue": "https://calckit.wooahouse.com/en/pension-deduction.html",
     "de": "Calculate your year-end tax refund from Korean pension savings and IRP contributions. Tax credit rates 13.2% or 16.5% applied automatically."
   },
   {
     "s": "WooaCalc",
     "su": "https://calckit.wooahouse.com/",
-    "n": "운동 칼로리 소모 계산기 2026 — 종목별 칼로리 소비량 계산",
+    "n": "운동 칼로리 소모 계산기",
     "u": "https://calckit.wooahouse.com/exercise-calorie.html",
     "d": "걷기·달리기·수영·자전거 등 19가지 운동 종목과 체중·시간으로 소모 칼로리를 MET 기반으로 계산합니다.",
-    "ne": "Exercise Calorie Calculator 2026 — Calories Burned by Activity",
+    "ne": "Exercise Calorie Calculator",
     "ue": "https://calckit.wooahouse.com/en/exercise-calorie.html",
     "de": "Calculate calories burned by exercise type, body weight, and duration. MET-based calculator for 19 activities including walking, running, cycling, swimming."
   },
