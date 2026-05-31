@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../icons/icon.svg" type="image/svg+xml">
+  <title>Hacker News — 개발자·스타트업 필독 IT 뉴스 커뮤니티 | WooaHouse</title>
+  <meta name="description" content="Hacker News 소개 및 바로가기. Y Combinator 운영 IT·스타트업·개발 뉴스 커뮤니티. 전 세계 개발자가 모이는 필독 사이트.">
+  <meta name="keywords" content="해커뉴스, Hacker News, YC, IT 뉴스, 개발자 커뮤니티, 스타트업 뉴스, 테크 뉴스">
+  <link rel="canonical" href="https://wooahouse.com/tools/hacker-news.html">
+  <link rel="alternate" hreflang="ko" href="https://wooahouse.com/tools/hacker-news.html">
+  <link rel="alternate" hreflang="en" href="https://wooahouse.com/en/tools/hacker-news.html">
+  <link rel="alternate" hreflang="x-default" href="https://wooahouse.com/en/tools/hacker-news.html">
+  <meta property="og:title" content="Hacker News 바로가기 — 개발자 필독 IT 뉴스">
+  <meta property="og:description" content="Hacker News 소개 및 바로가기. Y Combinator 운영 IT·스타트업·개발 뉴스 커뮤니티. 전 세계 개발자가 모이는 필독 사이트.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wooahouse.com/tools/hacker-news.html">
+  <meta property="og:locale" content="ko_KR">
+  <meta name="robots" content="index, follow">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"Hacker News","description":"Y Combinator 운영 IT·스타트업·개발 뉴스 커뮤니티","url":"https://news.ycombinator.com/","inLanguage":"ko"}
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZGENFSXWC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-9ZGENFSXWC');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6464921081676309" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .tool-hero{background:linear-gradient(135deg,#1c1917 0%,#d97706 60%,#fcd34d 100%);padding:44px 20px 40px;text-align:center;}
+    .tool-hero h1{color:white;font-size:2.2rem;font-weight:700;margin-bottom:10px;}
+    .tool-hero .cat-badge{display:inline-block;background:rgba(255,255,255,.2);color:white;font-size:.8rem;font-weight:600;padding:4px 14px;border-radius:20px;border:1px solid rgba(255,255,255,.3);margin-bottom:14px;}
+    .tool-hero p{color:rgba(255,255,255,.9);font-size:1rem;margin-bottom:20px;}
+    .btn-visit{display:inline-block;background:white;color:#d97706;font-weight:700;font-size:1rem;padding:12px 32px;border-radius:30px;text-decoration:none;box-shadow:0 4px 20px rgba(0,0,0,.15);transition:transform .15s,box-shadow .15s;}
+    .btn-visit:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.2);}
+    .tool-content{max-width:820px;margin:0 auto;padding:32px 20px 0;}
+    .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:28px 0;}
+    .info-card{background:white;border-radius:12px;padding:16px 18px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .info-card .label{font-size:.73rem;color:#9CA3AF;font-weight:600;text-transform:uppercase;margin-bottom:4px;}
+    .info-card .value{font-size:.9rem;color:#1A1A2E;font-weight:600;}
+    .section-title{font-size:1rem;font-weight:700;color:#1A1A2E;margin:28px 0 14px;padding-left:10px;border-left:3px solid #d97706;}
+    .feature-list{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;}
+    .feature-list li{background:#FFFBEB;color:#78350f;font-size:.83rem;padding:5px 14px;border-radius:20px;font-weight:500;}
+    .desc-box{background:white;border-radius:12px;padding:18px 20px;box-shadow:0 1px 6px rgba(0,0,0,.05);font-size:.9rem;color:#374151;line-height:1.8;margin-bottom:8px;}
+    .plan-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:14px 0 24px;}
+    .plan-card{background:white;border-radius:12px;padding:16px 18px;box-shadow:0 2px 8px rgba(0,0,0,.06);border-top:3px solid #d97706;}
+    .plan-card.pro{border-top-color:#f59e0b;}
+    .plan-card h4{font-size:.9rem;font-weight:700;color:#1A1A2E;margin-bottom:8px;}
+    .plan-card ul{padding-left:16px;margin:0;}
+    .plan-card li{font-size:.82rem;color:#4B5563;line-height:1.7;}
+    .breadcrumb{font-size:.8rem;color:#9CA3AF;margin-bottom:20px;}
+    .breadcrumb a{color:#d97706;text-decoration:none;}
+    .tips-panel{background:#FFFBEB;border-radius:14px;padding:20px 24px;margin:28px 0 0;}
+    .tips-panel h3{color:#78350f;font-size:.95rem;font-weight:700;margin-bottom:12px;}
+    .tips-panel ul{padding-left:18px;}
+    .tips-panel li{color:#78350f;font-size:.85rem;line-height:1.7;margin-bottom:4px;}
+    .faq-section{margin:24px 0 40px;}
+    .faq-section h2{font-size:1.05rem;font-weight:700;margin-bottom:14px;color:#1A1A2E;}
+    .faq-section details{background:white;border-radius:10px;margin-bottom:8px;box-shadow:0 1px 4px rgba(0,0,0,.06);}
+    .faq-section summary{padding:14px 18px;font-size:.88rem;font-weight:600;color:#1A1A2E;cursor:pointer;list-style:none;}
+    .faq-section summary::-webkit-details-marker{display:none;}
+    .faq-section summary::before{content:'＋';margin-right:8px;color:#d97706;}
+    .faq-section details[open] summary::before{content:'－';}
+    .faq-section details p{padding:0 18px 14px;font-size:.85rem;color:#4B5563;line-height:1.7;}
+  </style>
+  <style>.lang-switcher{display:flex;align-items:center;gap:4px;margin-right:8px;}.lang-switcher a{color:rgba(255,255,255,.7);text-decoration:none;font-size:.8rem;font-weight:600;padding:3px 8px;border-radius:12px;transition:background .15s;}.lang-switcher a.active{color:white;background:rgba(255,255,255,.25);}.lang-switcher a:hover{color:white;background:rgba(255,255,255,.18);}.lang-switcher span{color:rgba(255,255,255,.3);font-size:.75rem;}</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a href="../index.html" class="logo">WooaHouse</a>
+    <nav><a href="../index.html#news">뉴스 / 정보</a><a href="../index.html#ai">AI</a><a href="../index.html#dev">개발</a></nav>
+    <div class="header-right">
+      <div class="lang-switcher"><a href="hacker-news.html" class="active">KO</a><span>|</span><a href="../en/tools/hacker-news.html" >EN</a></div>
+      <a href="../about.html" style="color:white;font-size:.85rem;text-decoration:none;font-weight:600;">소개</a>
+    </div>
+  </div>
+</header>
+<script src="../js/wooa-sites-bar.js"></script>
+<div class="tool-hero">
+  <span class="cat-badge">📰 뉴스 / 정보</span>
+  <h1>🟠 Hacker News</h1>
+  <p>Y Combinator 운영 개발자 필독 IT 뉴스 & 토론</p>
+  <a href="https://news.ycombinator.com/" target="_blank" rel="noopener noreferrer" class="btn-visit">🔗 Hacker News 바로가기</a>
+</div>
+<div class="page-with-sidebar">
+<div class="tool-content">
+  <div class="breadcrumb" style="margin-top:24px;"><a href="../index.html">홈</a> &rsaquo; <a href="../index.html#news">뉴스 / 정보</a> &rsaquo; Hacker News</div>
+  <div class="info-grid">
+    <div class="info-card"><div class="label">카테고리</div><div class="value">IT 뉴스 커뮤니티</div></div>
+    <div class="info-card"><div class="label">운영사</div><div class="value">Y Combinator</div></div>
+    <div class="info-card"><div class="label">무료</div><div class="value">✅ 무료</div></div>
+    <div class="info-card"><div class="label">플랫폼</div><div class="value">Web</div></div>
+  </div>
+  <p class="section-title">서비스 소개</p>
+  <div class="desc-box">Hacker News는 실리콘밸리 최대 스타트업 액셀러레이터 Y Combinator가 운영하는 링크 공유·토론 커뮤니티입니다. 전 세계 개발자·창업자·투자자가 IT 기술·스타트업·과학·철학 등 다양한 주제의 링크와 의견을 공유합니다. 광고 없는 단순한 UI, 높은 수준의 토론, 상향식 투표 시스템으로 유명하며 글로벌 테크 커뮤니티의 핵심 허브입니다.</div>
+  <p class="section-title">주요 기능</p>
+  <ul class="feature-list"><li>🔗 링크 공유 및 토론</li><li>⬆️ 업보트 시스템</li><li>💬 고품질 댓글</li><li>🔍 검색 기능</li><li>📧 알림 없음 (광고 없음)</li><li>🏷️ Ask HN / Show HN</li><li>👤 karma 시스템</li><li>📱 모바일 친화적</li></ul>
+  <p class="section-title">요금제</p>
+  <div class="plan-grid"><div class="plan-card"><h4>무료</h4><ul><li>모든 기능 무료</li><li>계정 없이 읽기 가능</li><li>댓글·투표는 계정 필요</li></ul></div></div>
+  <div class="wooa-orig-anchor"></div>
+  <div class="tips-panel"><h3>💡 Tips</h3><ul><li>매일 아침 HN을 확인하는 것만으로 글로벌 테크 트렌드를 파악할 수 있습니다. 상위 30개 링크만 훑어봐도 충분합니다.</li><li>Ask HN 글에는 커리어·기술·창업 관련 실용적인 조언이 많습니다. "Ask HN" 필터로 검색해보세요.</li><li>algolia HN 검색(hn.algolia.com)을 사용하면 HN의 전체 히스토리에서 기술 주제를 검색할 수 있습니다.</li></ul></div>
+  <div class="faq-section"><h2>자주 묻는 질문</h2><details><summary>계정 없이도 이용할 수 있나요?</summary><p>네, 계정 없이도 모든 링크와 댓글을 읽을 수 있습니다. 업보트·댓글 작성·링크 제출은 계정이 필요합니다.</p></details><details><summary>karma란 무엇인가요?</summary><p>karma는 다른 사용자가 내 댓글이나 링크에 업보트를 줄 때 쌓이는 점수입니다. karma가 높을수록 다운보트 등 추가 기능을 이용할 수 있습니다.</p></details><details><summary>한국어 콘텐츠도 있나요?</summary><p>대부분 영어 콘텐츠입니다. 한국어 IT 뉴스는 GeekNews(news.hada.io)가 HN의 한국어 버전으로 잘 알려져 있습니다.</p></details></div>
+</div>
+<aside class="tool-sidebar"></aside>
+</div>
+<footer class="footer"></footer>
+<script src="../js/wooahouse-originals-tool.js"></script>
+<script src="../js/wooa-sidebar.js"></script>
+<script src="../js/wooa-footer.js"></script>
+<script src="../js/pwa-install.js"></script>
+</body>
+</html>
