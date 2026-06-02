@@ -1120,6 +1120,16 @@
     "de": "Convert YAML to JSON or JSON to YAML online for free..."
   },
   {
+    "s": "WooaText",
+    "su": "https://textkit.wooahouse.com/",
+    "n": "음성 텍스트 변환 무료 온라인 — STT 음성인식",
+    "u": "https://textkit.wooahouse.com/speech-to-text.html",
+    "d": "마이크 실시간 인식·AI Whisper 파일 변환. 99개 언어 지원, 브라우저 100% 로컬 처리.",
+    "ne": "Speech to Text — Free Online STT Voice Recognition",
+    "ue": "https://textkit.wooahouse.com/en/speech-to-text.html",
+    "de": "Real-time microphone and AI Whisper file transcription. 99 languages, 100% local in browser."
+  },
+  {
     "s": "WooaQR",
     "su": "https://qrkit.wooahouse.com/",
     "n": "바코드 생성기",
