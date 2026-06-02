@@ -192,6 +192,36 @@
   {
     "s": "WooaPDF",
     "su": "https://pdfkit.wooahouse.com/",
+    "n": "PDF EPUB 변환 무료 온라인 — PDF를 전자책으로 변환",
+    "u": "https://pdfkit.wooahouse.com/pdf-to-epub.html",
+    "d": "PDF 파일을 전자책 EPUB 형식으로 무료 변환. 텍스트 추출 후 EPUB 생성. 브라우저에서 바로 처리.",
+    "ne": "PDF to EPUB Converter – Free Online",
+    "ue": "https://pdfkit.wooahouse.com/en/pdf-to-epub.html",
+    "de": "Convert PDF to EPUB ebook format for free. Extracts text and creates standard EPUB. Browser-based."
+  },
+  {
+    "s": "WooaPDF",
+    "su": "https://pdfkit.wooahouse.com/",
+    "n": "EPUB PDF 변환 무료 온라인 — 전자책을 PDF로 변환",
+    "u": "https://pdfkit.wooahouse.com/epub-to-pdf.html",
+    "d": "EPUB 전자책 파일을 PDF로 무료 변환. 미리보기 후 브라우저 인쇄로 PDF 저장. 서버 저장 없음.",
+    "ne": "EPUB to PDF Converter – Free Online",
+    "ue": "https://pdfkit.wooahouse.com/en/epub-to-pdf.html",
+    "de": "Convert EPUB ebook to PDF for free. Preview content and save via browser print. No server upload."
+  },
+  {
+    "s": "WooaPDF",
+    "su": "https://pdfkit.wooahouse.com/",
+    "n": "HEIC PDF 변환 무료 온라인 — 아이폰 사진을 PDF로 변환",
+    "u": "https://pdfkit.wooahouse.com/heic-to-pdf.html",
+    "d": "아이폰 HEIC/HEIF 사진을 PDF로 무료 변환. 여러 파일을 한 PDF로 합치기 가능. 브라우저에서 바로 처리.",
+    "ne": "HEIC to PDF Converter – Free Online",
+    "ue": "https://pdfkit.wooahouse.com/en/heic-to-pdf.html",
+    "de": "Convert iPhone HEIC/HEIF photos to PDF for free. Merge multiple files into one PDF. Browser-based."
+  },
+  {
+    "s": "WooaPDF",
+    "su": "https://pdfkit.wooahouse.com/",
     "n": "PDF 뷰어 무료 다운로드",
     "u": "https://pdfkit.wooahouse.com/pdf-viewer.html",
     "d": "PDF 파일을 열 수 없을 때 필요한 무료 PDF 뷰어 모음. Adobe Acrobat Rea...",
