@@ -3874,6 +3874,266 @@
     "de": "Comfortable, smooth geometric round font"
   },
   {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Wanted Sans",
+    "u": "https://fontkit.wooahouse.com/fonts/wanted-sans.html",
+    "d": "원티드랩이 만든 현대적이고 가독성 높은 한글 산세리프 폰트",
+    "ne": "Wanted Sans",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/wanted-sans.html",
+    "de": "Modern, highly readable Korean sans-serif font by Wanted Lab"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "고운바탕",
+    "u": "https://fontkit.wooahouse.com/fonts/gowun-batang.html",
+    "d": "구글 폰트에서 제공하는 우아한 한글 명조 무료 폰트",
+    "ne": "Gowun Batang",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/gowun-batang.html",
+    "de": "Elegant Korean serif font available on Google Fonts"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "제주명조",
+    "u": "https://fontkit.wooahouse.com/fonts/jeju-myeongjo.html",
+    "d": "제주도청이 배포하는 무료 한글 명조 폰트",
+    "ne": "Jeju Myeongjo",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/jeju-myeongjo.html",
+    "de": "Free Korean serif font distributed by Jeju Province"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Black Han Sans",
+    "u": "https://fontkit.wooahouse.com/fonts/black-han-sans.html",
+    "d": "굵고 임팩트 있는 한글 고딕 디스플레이 폰트",
+    "ne": "Black Han Sans",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/black-han-sans.html",
+    "de": "Bold, impactful Korean gothic display font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "나눔붓글씨체",
+    "u": "https://fontkit.wooahouse.com/fonts/nanum-brush-script.html",
+    "d": "붓글씨 느낌의 네이버 나눔 손글씨 폰트",
+    "ne": "Nanum Brush Script",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/nanum-brush-script.html",
+    "de": "Naver Nanum handwriting font with a brush calligraphy feel"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Figtree",
+    "u": "https://fontkit.wooahouse.com/fonts/figtree.html",
+    "d": "깔끔하고 현대적인 영문 산세리프 폰트",
+    "ne": "Figtree",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/figtree.html",
+    "de": "Clean and modern English sans-serif font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Bricolage Grotesque",
+    "u": "https://fontkit.wooahouse.com/fonts/bricolage-grotesque.html",
+    "d": "개성 있는 그로테스크 스타일의 영문 디스플레이 폰트",
+    "ne": "Bricolage Grotesque",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/bricolage-grotesque.html",
+    "de": "Distinctive grotesque-style English display font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Lexend",
+    "u": "https://fontkit.wooahouse.com/fonts/lexend.html",
+    "d": "가독성 향상을 목적으로 설계된 영문 산세리프 폰트",
+    "ne": "Lexend",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/lexend.html",
+    "de": "English sans-serif font designed to improve reading proficiency"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Cormorant Garamond",
+    "u": "https://fontkit.wooahouse.com/fonts/cormorant-garamond.html",
+    "d": "우아하고 고급스러운 영문 세리프 폰트",
+    "ne": "Cormorant Garamond",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/cormorant-garamond.html",
+    "de": "Elegant and refined English serif font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Source Serif 4",
+    "u": "https://fontkit.wooahouse.com/fonts/source-serif-4.html",
+    "d": "Adobe가 만든 가독성 높은 영문 세리프 폰트",
+    "ne": "Source Serif 4",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/source-serif-4.html",
+    "de": "Highly readable English serif font by Adobe"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Fraunces",
+    "u": "https://fontkit.wooahouse.com/fonts/fraunces.html",
+    "d": "독특한 개성을 가진 영문 디스플레이 세리프 폰트",
+    "ne": "Fraunces",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/fraunces.html",
+    "de": "Distinctive English display serif font with unique character"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Bebas Neue",
+    "u": "https://fontkit.wooahouse.com/fonts/bebas-neue.html",
+    "d": "굵고 임팩트 있는 영문 올캡스 디스플레이 폰트",
+    "ne": "Bebas Neue",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/bebas-neue.html",
+    "de": "Bold, impactful all-caps English display font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Anton",
+    "u": "https://fontkit.wooahouse.com/fonts/anton.html",
+    "d": "강렬하고 강한 느낌의 영문 디스플레이 폰트",
+    "ne": "Anton",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/anton.html",
+    "de": "Bold and powerful English display font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Dancing Script",
+    "u": "https://fontkit.wooahouse.com/fonts/dancing-script.html",
+    "d": "생동감 있는 영문 필기체 손글씨 폰트",
+    "ne": "Dancing Script",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/dancing-script.html",
+    "de": "Lively English handwriting script font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Pacifico",
+    "u": "https://fontkit.wooahouse.com/fonts/pacifico.html",
+    "d": "여유롭고 친근한 느낌의 영문 브러시 스크립트 폰트",
+    "ne": "Pacifico",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/pacifico.html",
+    "de": "Relaxed, friendly English brush script font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Geist",
+    "u": "https://fontkit.wooahouse.com/fonts/geist.html",
+    "d": "Vercel이 만든 개발자 친화적인 영문 산세리프 폰트",
+    "ne": "Geist",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/geist.html",
+    "de": "Developer-friendly English sans-serif font by Vercel"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Space Grotesk",
+    "u": "https://fontkit.wooahouse.com/fonts/space-grotesk.html",
+    "d": "독특한 개성을 가진 테크 스타일 영문 산세리프 폰트",
+    "ne": "Space Grotesk",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/space-grotesk.html",
+    "de": "Tech-style English sans-serif font with distinctive character"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Outfit",
+    "u": "https://fontkit.wooahouse.com/fonts/outfit.html",
+    "d": "기하학적이고 세련된 영문 산세리프 폰트",
+    "ne": "Outfit",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/outfit.html",
+    "de": "Geometric and refined English sans-serif font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Manrope",
+    "u": "https://fontkit.wooahouse.com/fonts/manrope.html",
+    "d": "모던하고 균형 잡힌 영문 산세리프 폰트",
+    "ne": "Manrope",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/manrope.html",
+    "de": "Modern and well-balanced English sans-serif font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "Work Sans",
+    "u": "https://fontkit.wooahouse.com/fonts/work-sans.html",
+    "d": "업무용으로 최적화된 읽기 편한 영문 산세리프 폰트",
+    "ne": "Work Sans",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/work-sans.html",
+    "de": "Optimized for work use, readable English sans-serif font"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "지마켓 산스",
+    "u": "https://fontkit.wooahouse.com/fonts/gmarket-sans.html",
+    "d": "G마켓이 배포하는 귀엽고 친근한 한글 폰트",
+    "ne": "GmarketSans",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/gmarket-sans.html",
+    "de": "Cute and friendly Korean font distributed by Gmarket"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "SUIT",
+    "u": "https://fontkit.wooahouse.com/fonts/suit.html",
+    "d": "개발자 커뮤니티가 만든 가독성 높은 한글 산세리프 폰트",
+    "ne": "SUIT",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/suit.html",
+    "de": "Highly readable Korean sans-serif font created by the developer community"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "나눔바른고딕",
+    "u": "https://fontkit.wooahouse.com/fonts/nanum-barun-gothic.html",
+    "d": "네이버 나눔 계열의 깔끔하고 단정한 한글 고딕 폰트",
+    "ne": "Nanum Barun Gothic",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/nanum-barun-gothic.html",
+    "de": "Clean and tidy Korean gothic font from Naver Nanum family"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "나눔스퀘어라운드",
+    "u": "https://fontkit.wooahouse.com/fonts/nanum-square-round.html",
+    "d": "네이버 나눔스퀘어의 모서리를 둥글게 다듬은 친근한 한글 폰트",
+    "ne": "Nanum Square Round",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/nanum-square-round.html",
+    "de": "Friendly Korean font with rounded corners from Naver Nanum Square"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "IBM Plex Sans KR",
+    "u": "https://fontkit.wooahouse.com/fonts/ibm-plex-sans-kr.html",
+    "d": "IBM이 만든 한국어 지원 테크 스타일 산세리프 폰트",
+    "ne": "IBM Plex Sans KR",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/ibm-plex-sans-kr.html",
+    "de": "Tech-style Korean sans-serif font by IBM"
+  },
+  {
+    "s": "WooaFont",
+    "su": "https://fontkit.wooahouse.com/",
+    "n": "제주고딕",
+    "u": "https://fontkit.wooahouse.com/fonts/jeju-gothic.html",
+    "d": "제주도청이 배포하는 무료 한글 고딕 폰트",
+    "ne": "Jeju Gothic",
+    "ue": "https://fontkit.wooahouse.com/en/fonts/jeju-gothic.html",
+    "de": "Free Korean gothic font distributed by Jeju Province"
+  },
+  {
     "s": "WooaMac",
     "su": "https://mactools.wooahouse.com/",
     "n": "Google Chrome",
