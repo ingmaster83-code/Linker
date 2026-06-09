@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://linker.wooahouse.com/sitemap.xml
+Sitemap: https://wooahouse.com/sitemap.xml
