@@ -1,4 +1,4 @@
-const CACHE_NAME = 'linker-v7';
+const CACHE_NAME = 'linker-v8';
 const ASSETS = [
   '/',
   '/index.html',
@@ -22,6 +22,7 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
+  if (new URL(e.request.url).origin !== self.location.origin) return; // 타사(광고·분석 등) 요청은 그대로 통과
   e.respondWith(
     fetch(e.request).catch(() => caches.match(e.request))
   );
